@@ -32,6 +32,8 @@ A visual of the "layers" of the layout:
 * Inner Layer (Minecraft "Servers"): Individual Docker containers
 
 # Pterodactyl Setup
+We use MariaDB (MySQL according to the setup script, but still functions the same), Redis for caching, and the built in PHP mail function (as we don't care about getting emails from the panel).
+
 5 servers on one node.
 
 Each server is for:
@@ -48,4 +50,4 @@ Each is given a different amount of disk space for worlds depending on usage. As
 
 For this reason, our servers allow for 5% memory over-allocation and 20% disk over-allocation (in case one of them uses up a lot).
 
-We use the [PterodactylAutoStart https://github.com/Alteiria/pterodactylAutoStart] script to auto-start servers once the actual VM reboots. This uses the Pterodactyl **Account** API.
+We use the [PterodactylAutoStart](https://github.com/Alteiria/pterodactylAutoStart) script to auto-start servers once the actual VM reboots. This uses the Pterodactyl **Account** API.
