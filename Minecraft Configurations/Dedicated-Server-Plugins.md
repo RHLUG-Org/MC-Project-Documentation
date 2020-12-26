@@ -13,7 +13,7 @@ LuckPerms, SimplePortals, Essentials, FastAsyncWorldEdit
 # On PvP server only
 We use the Fabric Server and Fabric API for loading mods on PvP.
 
-Player Roles for Fabric (permissions), Leukocyte (land claims), Phosphor/Lithium (server-side performance), [Fabric-Language-Kotlin](https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin/download/3136960) (required for Gunpowder), Gunpowder, GunpowderTeleport (for /home, /warp spawn, and /tpa), GunpowderSleepVote (to match EasyBed)
+Player Roles for Fabric (permissions, [allows permission level 2 in the Fabric API to be set for "admins" to allow the Flan plugin to work](https://fabricmc.net/wiki/tutorial:commands#some_example_commands_examples)), Flan (land claims, used bedrock and spawner for claim and info to prevent players in PvP from claiming their own land), Phosphor/Lithium (server-side performance), [Fabric-Language-Kotlin](https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin/download/3136960) (required for Gunpowder), Gunpowder, GunpowderTeleport (for /home, /warp spawn, and /tpa), GunpowderSleepVote (to match EasyBed)
 
 Temporary plugins for server maintenance (they'll only be installed when maintenance is going on to avoid permissions conflicts): WorldEdit
 
