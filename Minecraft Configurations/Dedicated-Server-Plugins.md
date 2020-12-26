@@ -13,7 +13,7 @@ LuckPerms, SimplePortals, Essentials, FastAsyncWorldEdit
 # On PvP server only
 We use the Fabric Server and Fabric API for loading mods on PvP.
 
-Player Roles for Fabric (permissions), Leukocyte (land claims), Phosphor/Lithium (server-side performance), Gunpowder (for /home, /warp spawn, and /tpa), GunpowderSleepVote (to match EasyBed)
+Player Roles for Fabric (permissions), Leukocyte (land claims), Phosphor/Lithium (server-side performance), Gunpowder, GunpowderTeleport (for /home, /warp spawn, and /tpa), GunpowderSleepVote (to match EasyBed)
 
 Temporary plugins for server maintenance (they'll only be installed when maintenance is going on to avoid permissions conflicts): WorldEdit
 
