@@ -22,4 +22,4 @@ This list helped us immensely: https://gist.github.com/comp500/12417ee3685f62043
 # LuckPerms configuration
 This uses a MariaDB database with the 'global' configuration, where the Bungeecord server maintains the 'master list of permissions' to be sent to all servers.
 
-We don't use per-server permissions with LuckPerms because we don't need it.
+We use per-server permissions with LuckPerms using `include-global: true` while setting the individual server names.
