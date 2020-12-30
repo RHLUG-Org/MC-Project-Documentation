@@ -29,6 +29,13 @@
     "overrides": {
       "commands": {
         "help": "allow",
+        "sethome": "allow",
+        "home": "allow",
+        "tpa": "allow",
+        "tpaccept": "allow",
+        "tpdeny": "allow",
+        "warp": "allow",
+        "say": "allow",
         ".*": "deny"
       }
     }
